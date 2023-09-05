@@ -98,7 +98,7 @@
             </div>
         </div>
     </footer>
-    
+    <script src="alerts.js"></script>
 </body>
 
 </html>
