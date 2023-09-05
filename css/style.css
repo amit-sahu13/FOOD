@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@400;500');
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    width: 100%;
+    background-color: black;
+    height: 80px;
+    line-height: 80px;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+.nav-1 a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+}
+.nav-1 ul li{
+    float: left;
+    list-style: none;
+    padding: 0px 25px;
+}
+.nav-1 ul{
+    margin: 0px;
+}
+.logo a{
+    font-size: 35px;
+    font-weight: bold;
+    color: red;
+    padding: 0px 40px;
+    text-decoration: none;
+}
+.nav-1 ul li a:hover{
+    color: red;
+    font-weight: bold;
+}
+.header{
+    font-family: 'Lato', sans-serif;
+    background-image: url('bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    /* justify-content: center;
+    align-items: center; */
+    text-align: center;
+}
+.content h1{
+    font-size: 50px;
+}
+.content p{
+    padding: 0px 40px;
+    font-size: 20px;
+    font-family: 'Edu SA Beginner', cursive;
+}
+.btn{
+    background: rgb(103, 232, 103);
+    color: black;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    padding: 4px 13px;
+    font-size: 20px;
+}
+.btn:hover{
+    background: rgb(214, 79, 79);
+    color: white;
+    cursor: pointer;;
+}
+.container{
+    background: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+}
+.row{
+    max-width: 1170px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-col ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px 170px 0px 0px ;
+}
+.footer{
+    background-color: #24262b;
+    padding: 70px 0px;
+    max-height: 165px;
+}
+.footer-col{
+    width: 25%;
+    padding: 0px 15px;
+}
+.footer-col h4{
+    font-size: 18px;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+}
+.footer-col ul li{
+    margin-bottom: 10px;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+}
+.footer-col ul li a:hover{
+    padding-left: 10px;
+    color: white;
+}
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0px 10px 10px 0px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: white;
+}
+.footer-col .social-links a:hover{
+    color: #24262b;
+    background-color: #ffffff;
+}
+.width{
+    max-width: 172px;
+}
+.copy{
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+
+
+
+
+
+.wrapper {
+    height: 11vh;
+    /*This part is important for centering*/
+    display: grid;
+    place-items: center;
+  }
+  
+  .typing-demo {
+    width: 22ch;
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 4em;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+
+  @media (max-width: 576px) {
+    .blogs {
+      margin-top: 3rem;
+      padding: 2rem 0rem 8rem 1.5rem;
+      width: 22rem;
+    } }

@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.boundary{
+    display: flex;
+    justify-content: center;
+}
+.forms{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    background-color: #f1eaea;
+    padding: 60px;
+    width: 100%;
+    margin: 200px 0px;
+    border-radius: 10px;
+    width: fit-content;
+}
+
+.forms input{
+    width: 100%;
+    width: 400px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+.textarea textarea{
+    width: 100%;
+    width: 400px;
+}
+.forms label{
+    font-family: 'Noto', sans-serif;
+    font-size: 19px;
+    margin-bottom: 2px;
+}
+
+.forms input[placeholder]{
+    padding: 4px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.forms textarea[placeholder]{
+    padding: 4px;
+    font-size: 16x;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+}
+.submit-btn{
+    width: 70px;
+    padding: 4px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-family: 'Noto', sans-serif;
+}
+
